@@ -1,6 +1,6 @@
 let welcomeEl = document.getElementById("welcome-el")
 
-let name = "Per Harald Borgen"
+let name = "Roelof de Groot"
 let greeting = "Welcome back "
 
 welcomeEl.innerText = greeting + name
@@ -9,3 +9,4 @@ welcomeEl.innerText = greeting + name
 // WRITE YOUR CODE BELOW HERE
 // HINT: count = count + 1
 
+welcomeEl.innerText += "👋🏻"
