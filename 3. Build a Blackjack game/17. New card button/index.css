@@ -3,6 +3,7 @@ body {
     background-image: url("images/table.png");
     background-size: cover;
     font-weight: bold;
+    font-size: 2em;
     color: white;
     text-align: center;
 }
@@ -19,11 +20,13 @@ h1 {
 each other when they are rendered out vertically */
 button {
     color: #016f32;
-    width: 150px;
+    width: 300px;
     background: goldenrod;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
 }

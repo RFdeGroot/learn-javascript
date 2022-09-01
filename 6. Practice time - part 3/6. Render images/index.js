@@ -7,3 +7,9 @@ const imgs = [
     "images/hip2.jpg",
     "images/hip3.jpg"
 ]
+
+const container = document.getElementById("container")
+
+for (let i = 0; i < imgs.length; i++) {
+    container.innerHTML += `<img class="team-img" src="${imgs[i]}">`
+}

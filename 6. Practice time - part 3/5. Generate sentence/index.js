@@ -9,5 +9,17 @@
 
 // Use both a for loop and a template string to solve the challenge
 function generateSentence(desc, arr) {
-    
+    const no = arr.length
+    const sentence = arr.toString()
+    if (desc === "largest countries") {
+        console.log(`The ${no} largest countries in the world are ${sentence}`)
+        
+    } else if (desc === "best fruits"){
+        console.log(`The ${no} best fruits are ${sentence}`)
+
+
+    }
 }
+
+generateSentence("largest countries",["China", "India", "USA"])
+generateSentence("best fruits",["Apples", "Bananas"])
